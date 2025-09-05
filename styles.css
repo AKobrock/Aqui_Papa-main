@@ -16,6 +16,8 @@ body {
     line-height: 1.6;
 }
 
+
+
 /* Navbar */
 .navbar {
     width: 100%;
@@ -120,7 +122,7 @@ h1 {
 
 .card-title {
     font-weight: bold;
-    color: #606C38;
+    color: #283618;
 }
 
 .card-img-top {
