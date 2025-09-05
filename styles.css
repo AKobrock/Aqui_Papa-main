@@ -11,8 +11,8 @@
 /* Estilo general */
 body {
     font-family: 'Nunito', sans-serif;;
-    background-color: #FFF8E1;
-    color: #333333;
+    background-color: #FEFAE0;
+    color: #283618;
     line-height: 1.6;
 }
 
@@ -51,7 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
-    background-color: #3a4668;
+    background-color: #606C38;
 }
 
 .contenedor-imagen .imagen-wrapper {
@@ -73,7 +73,7 @@ h1, h2 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #3a4668;
+    color: #BC6C25;
     text-align: center;
 }
 
@@ -90,14 +90,14 @@ h1 {
     padding: 1.5rem 0;
     font-size: 1rem;
     line-height: 1.8;
-    color: #3a4668;
+    color: #606C38;
 }
 
 /* Botones */
 .btn-primary {
-    background-color: #F4C542;
+    background-color: #BC6C25;
     border: none;
-    color: #3a4668;
+    color: #606C38;
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 5px;
@@ -105,22 +105,22 @@ h1 {
 }
 
 .btn-primary:hover {
-    background-color: #d4aa1f;
+    background-color: #BC6C25;
 }
 
 /* Cards de productos */
 .card {
-    background-color: #F5F5F5;
+    background-color: #FEFAE0;
     border: none;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    color: #3a4668;
+    color: #606C38;
 }
 
 .card-title {
     font-weight: bold;
-    color: #3a4668;
+    color: #606C38;
 }
 
 .card-img-top {
@@ -135,7 +135,7 @@ h1 {
     max-height: 700px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #3a4668;
+    background-color: #606C38;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
@@ -168,7 +168,7 @@ h1 {
     width: 30px;
     height: 3px;
     margin: 0 4px;
-    background-color: #fff;
+    background-color: #FEFAE0;
     opacity: 0.5;
     transition: opacity 0.3s ease;
 }
@@ -186,8 +186,8 @@ h1 {
 .custom-caption {
     margin-top: 1rem; /* Optional spacing */
     text-align: center;
-    background-color: #3a4668;
-    color: #F5F5F5;
+    background-color: #606C38;
+    color: #FEFAE0;
     font-size: 1rem;
     line-height: 1.5;
     padding: 1rem;
@@ -203,8 +203,8 @@ h1 {
 /* Footer */
 footer {
     width: 100%;
-    background-color: #3a4668;
-    color: #F5F5F5;
+    background-color: #283618;
+    color: #FEFAE0;
     font-size: 0.9rem;
     padding: 20px;
     text-align: center;
