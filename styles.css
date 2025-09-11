@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* Estilo general */
+
 body {
     font-family: 'Nunito', sans-serif;;
     background-color: #FEFAE0;
@@ -17,8 +17,6 @@ body {
 }
 
 
-
-/* Navbar */
 .navbar {
     width: 100%;
     background-color: #283618 !important;
@@ -46,7 +44,7 @@ body {
     color: #DDA15E !important;
 }
 
-/* Contenedor de imagen */
+
 .contenedor-imagen {
     width: 100%;
     display: flex;
@@ -66,7 +64,7 @@ body {
     height: auto;
     display: block;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 12px #283618;
     object-fit: cover;
 }
 
@@ -80,10 +78,10 @@ h1, h2 {
 }
 
 h1 {
-    margin: 2rem 0 1rem 0; /* Espacio entre header y texto */
+    margin: 2rem 0 1rem 0; 
 }
 
-/* Texto explicativo centrado con la imagen */
+
 .texto-explicativo {
     width: 90%;
     max-width: 1200px;
@@ -95,7 +93,7 @@ h1 {
     color: #606C38;
 }
 
-/* Botones */
+
 .btn-primary {
     background-color: #BC6C25;
     border: none;
@@ -110,13 +108,26 @@ h1 {
     background-color: #BC6C25;
 }
 
-/* Cards de productos */
+.btn-custom {
+  background-color: #BC6C25; /* your color */
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  background-color: #995a1e; /* darker shade on hover */
+  color: #fff;
+}
+
 .card {
     background-color: #FEFAE0;
-    border: none;
+    border: 1;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px #283618;
     color: #606C38;
 }
 
@@ -130,7 +141,7 @@ h1 {
 }
 
 
-/* Carousel Styles */
+
 .carousel {
     margin: 2rem auto;
     max-width: 500px;
@@ -138,10 +149,10 @@ h1 {
     border-radius: 10px;
     overflow: hidden;
     background-color: #606C38;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px #283618;
 }
 
-/* Carousel images */
+
 .carousel-item img {
     width: 100%;
     max-height: 500px;
@@ -149,7 +160,7 @@ h1 {
     border-radius: 8px;
 }
 
-/* Controls (Prev/Next Arrows) */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-size: 2rem 2rem;
@@ -165,7 +176,7 @@ h1 {
     opacity: 1;
 }
 
-/* Indicators (Dots) */
+
 .carousel-indicators [data-bs-target] {
     width: 30px;
     height: 3px;
@@ -179,12 +190,12 @@ h1 {
     opacity: 1;
 }
 
-/* REMOVE Bootstrap's default overlay captions */
+
 .carousel-caption {
     display: none;
 }
 
-/* ✅ Custom Caption (below image instead of on top) */
+
 .custom-caption {
     margin-top: 1rem; /* Optional spacing */
     text-align: center;
@@ -214,15 +225,14 @@ h1 {
     }
     
     .breadcrumb-item a {
-      color: #8a3a6a;
+      color: #606C38;
       text-decoration: none;
     }
     
     .breadcrumb-item.active {
-      color: #6c757d;
+      color: #283618;
     }
 
-    /* Contenedor de producto */
     .product-container {
       max-width: 1200px;
       margin: 40px auto;
@@ -264,8 +274,30 @@ h1 {
       margin-bottom: 10px;
       font-weight: bold;
     }
+
+    .product-title2 {
+      font-family: 'Montserrat Alternates', sans-serif;
+      color: #BC6C25;
+      font-size: 25px;
+      margin-bottom: 10px;
+      align-items: center;
+      justify-content: center;
+      margin-left: 110px;
+    }
+
+    .papa_datos .label{
+      font-family: 'Montserrat Alternates', sans-serif;
+      color: #BC6C25;
+      font-weight: bold;
+    }
     
-    .product-price {
+    .edad .value {
+    font-weight: normal;
+    color: #283618; 
+    }
+   
+    
+    .dad-price {
       color: #283618;
       font-size: 24px;
       font-weight: bold;
@@ -274,7 +306,7 @@ h1 {
     
     .divider {
       height: 1px;
-      background: linear-gradient(to right, transparent, #d63384, transparent);
+      background: linear-gradient(to right, transparent, #606C38, transparent);
       margin: 25px 0;
     }
     
@@ -284,57 +316,34 @@ h1 {
       margin-bottom: 30px;
     }
     
-    .quantity-selector {
-      margin-bottom: 25px;
-    }
-    
-    .quantity-label {
-      color: #6c416f;
-      font-weight: 500;
-      margin-bottom: 10px;
-      display: block;
-    }
-    
-    .quantity-controls {
+    .dad-price {
+      color: #283618;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;   /* space from description */
+      text-align: center; /* center text inside */
       display: flex;
-      align-items: center;
-      gap: 15px;
+      flex-direction: column; /* stack vertically */
+      align-items: center;    /* center horizontally */
+      gap: 12px; /* space between price and button */
     }
-    
-    .quantity-btn {
-      background: #8a3a6a;
-      color: white;
+
+    .btn-rentar {
+      background-color: #606c38;
+      color: #fff;
+      padding: 10px 20px;
       border: none;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
+      border-radius: 8px;
       cursor: pointer;
-      transition: all 0.3s;
-    }
-    
-    .quantity-btn:hover {
-      background: #d63384;
-      transform: scale(1.1);
-    }
-    
-    .quantity-value {
-      font-size: 18px;
       font-weight: bold;
-      min-width: 30px;
-      text-align: center;
     }
+    
+    
 
-
-/* Footer */
-footer {
-    width: 100%;
-    background-color: #283618;
-    color: #FEFAE0;
-    font-size: 0.9rem;
-    padding: 20px;
-    text-align: center;
-}
+    footer {
+      background-color: #283618; 
+      color: white;
+      text-align: center;
+      padding: 20px;
+      width: 100%;
+    }
