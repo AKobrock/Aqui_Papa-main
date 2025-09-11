@@ -201,6 +201,133 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+ /* Centrar el menú principal */
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .breadcrumb {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+    
+    .breadcrumb-item a {
+      color: #8a3a6a;
+      text-decoration: none;
+    }
+    
+    .breadcrumb-item.active {
+      color: #6c757d;
+    }
+
+    /* Contenedor de producto */
+    .product-container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    
+    .product-detail {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 60px;
+    }
+    
+    .product-image {
+      flex: 1;
+      min-width: 300px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+    
+    .product-image img {
+      max-width: 100%;
+      max-height: 400px;
+      border-radius: 8px;
+    }
+    
+    .product-info {
+      flex: 1;
+      min-width: 300px;
+    }
+    
+    .product-title {
+      font-family: 'Montserrat Alternates', sans-serif;
+      color: #BC6C25;
+      font-size: 35px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .product-price {
+      color: #283618;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #d63384, transparent);
+      margin: 25px 0;
+    }
+    
+    .product-description {
+      color: #283618;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    
+    .quantity-selector {
+      margin-bottom: 25px;
+    }
+    
+    .quantity-label {
+      color: #6c416f;
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    .quantity-controls {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    
+    .quantity-btn {
+      background: #8a3a6a;
+      color: white;
+      border: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    
+    .quantity-btn:hover {
+      background: #d63384;
+      transform: scale(1.1);
+    }
+    
+    .quantity-value {
+      font-size: 18px;
+      font-weight: bold;
+      min-width: 30px;
+      text-align: center;
+    }
+
 
 /* Footer */
 footer {
